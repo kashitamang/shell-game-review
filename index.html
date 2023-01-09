@@ -30,10 +30,24 @@
         </header>
 
         <main>
-            <section class="shells">
-                <div class="shell" id="shell-one">🐚</div>
-                <div class="shell" id="shell-two">🐚</div>
-                <div class="shell" id="shell-three">🐚</div>
+            <section class="hiding-places">
+                <div id="shell-one-container" class="hiding-place">
+                    <div class="shell" id="shell-one">🐚</div>
+                    <button id="button-one">Guess</button>
+                </div>
+                <div id="shell-two-container" class="hiding-place">
+                    <div class="shell" id="shell-two">🐚</div>
+                    <button id="button-two">Guess</button>
+                </div>
+                <div id="shell-three-container" class="hiding-place">
+                    <div class="shell" id="shell-three">🐚</div>
+                    <button id="button-three">Guess</button>
+                </div>
+            </section>
+            <section class="totals">
+                <div>You guessed correct <span id="wins">0</span> times</div>
+                <div>You guessed incorrect <span id="losses">0</span> times</div>
+                <div>You have played <span id="total">0</span> games</div>
             </section>
         </main>
     </body>
