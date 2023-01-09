@@ -1,0 +1,8 @@
+.shells {
+    display: flex;
+}
+
+.shell {
+    font-size: 10rem;
+    margin: 40px;
+}
